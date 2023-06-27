@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+    align-items: center;
+    background-color: #009688;
+    color: #fff;
+}
+
+#logo {
+    max-width: 50px;
+}
+
+nav span {
+    text-transform: uppercase;
+}
+
+.container {
+    padding: 10px;
+    min-height: 100vh;
+}
+
+#container_get_ducks {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #e7e7e7;
+}
+#form_group{
+    display: flex;
+    gap: 5px;
+}
+
+#ducks_number{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+#btn_play{
+    background-color: transparent;
+    border: none;
+    color: #009688;
+    cursor: pointer;
+}
+
+#btn_stop{
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+#music{
+    background: rgb(245, 245, 245);
+    max-width: 60%;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px auto ;
+    border-radius: 5px;
+    box-shadow: 8px 15px 10px 5px rgba(0, 0, 0, 0.342);
+}
+#music p{
+    margin: 10px;
+}
+
+footer{
+    background-color: #009688;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
