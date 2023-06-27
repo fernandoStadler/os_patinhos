@@ -28,11 +28,11 @@ btnPlay.addEventListener('click', () => {
             if (ducks == 1) {
                 outputText.innerHTML += `
              <p>
-             <strong> ${ducks} </strong> patinhos foram passear<br/>
+             <strong> ${ducks} </strong> patinho foi passear<br/>
              Além das montanhas<br/>
              Para brincar<br/>
              A mamãe gritou: Quá, quá, quá, quá<br/>
-             Mas <strong>nenhum</strong> patinhos voltaram de lá.
+             Mas <strong>nenhum</strong> patinho voltou de lá.
          </p`
             }
             if (ducks == 1) {
